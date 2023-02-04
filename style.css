@@ -20,7 +20,7 @@ h2 {
   overflow: hidden;
   transform: translateY(23vh);
   z-index: 1;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Quicksand', 'Segoe UI', Tahoma, Arial, Helvetica, sans-serif;
   color: #26262676;
 }
 
@@ -29,8 +29,12 @@ h3 {
 }
 
 .intro {
-  transition: all .85s ease-out;
-  background-color: orange;
+  color: whitesmoke;
+  font-family: 'Quicksand';
+  display: flex;
+  align-items: center;
+  transition: all .65s ease-out;
+  background-color: #1f2329;
   position: absolute;
   top: 0px;
   bottom: 0px;
@@ -38,6 +42,7 @@ h3 {
 }
 
 .intro-left {
+  justify-content: flex-end;
   right: 50%;
   left: 0px;
   z-index: 3;
