@@ -1,0 +1,148 @@
+body{
+    background: #1b1b1b;
+}
+
+h2{
+    position: absolute;
+    margin: 0;
+    margin-top: -5.2vw;
+    padding: 0;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 90px;
+    overflow: hidden;
+    transform: translateY(23vh);
+    z-index: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #26262676;
+}
+
+h3{
+    color: darkgrey;
+}
+
+#maindiv{
+    transition: opacity 1.5s;
+}
+
+#textdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#albumdiv{
+    background-color: #1b1b1b;
+    width: 99vw;
+    height: 90vh;
+}
+#album{
+    margin: 10px;
+    width: 95vw;
+    height: 30vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.photo{
+    z-index: 2;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-size: 8em 8em !important;
+    height: 8em;
+    width: 8em;
+    transition: all 1.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.photohover:hover{
+    transform: scale(1.7);
+    margin-top: 60px;
+    z-index: 3;
+}
+
+.activePhoto#photo1{
+    transform: scale(3.4) translate(160%, 13vh) rotate(360deg);
+}
+
+.activePhoto#photo2{
+    transform: scale(3.4) translate(125%, 13vh);
+}
+
+.activePhoto#photo3{
+    transform: scale(3.4) translate(90%, 13vh);
+}
+
+.activePhoto#photo4{
+    transform: scale(3.4) translate(55%, 13vh);
+}
+
+.activePhoto#photo5{
+    transition: all 1.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transform: scale(3.4) rotateY(360deg) translate(20%, 13vh);
+}
+
+.activePhoto#photo6{
+    transition: all 1.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transform: scale(3.4) rotateY(360deg) translate(-20%, 13vh);
+}
+
+.activePhoto#photo7{
+    transform: scale(3.4) translate(-55%, 13vh);
+}
+
+.activePhoto#photo8{
+    transform: scale(3.4) translate(-90%, 13vh);
+}
+
+.activePhoto#photo9{
+    transform: scale(3.4) translate(-125%, 13vh);
+}
+
+.activePhoto#photo10{
+    transform: scale(3.4) translate(-160%, 13vh) rotate(-360deg);
+}
+
+
+#photo1{
+    background: url('img/1.jpeg');
+}
+#photo2{
+    background: url('img/2.jpeg');
+}
+#photo3{
+    background: url('img/3.jpeg');
+}
+#photo4{
+    background: url('img/4.jpeg');
+}
+#photo5{
+    background: url('img/5.jpeg');
+}
+#photo6{
+    background: url('img/6.jpeg');
+}
+#photo7{
+    background: url('img/7.jpeg');
+}
+#photo8{
+    background: url('img/8.jpeg');
+}
+#photo9{
+    background: url('img/9.jpeg');
+}
+#photo10{
+    background: url('img/10.jpeg');
+}
+
+#photo1.photohover:hover{
+    margin-left: 50px;
+}
+#photo10.photohover:hover{
+    margin-right: 50px;
+}
+
