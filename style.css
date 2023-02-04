@@ -1,5 +1,8 @@
 body {
   background: #1b1b1b;
+  margin: 0;
+  height: 100%;
+  width: 100%;
 }
 
 h2 {
@@ -23,6 +26,35 @@ h2 {
 
 h3 {
   color: darkgrey;
+}
+
+.intro {
+  transition: all .85s ease-out;
+  background-color: orange;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  width: 50%;
+}
+
+.intro-left {
+  right: 50%;
+  left: 0px;
+  z-index: 3;
+}
+
+.intro-right {
+  right: 0px;
+  left: 50%;
+  z-index: 3;
+}
+
+.intro-left.open {
+  transform: translateX(-100%);
+}
+
+.intro-right.open {
+  transform: translateX(100%);
 }
 
 #maindiv {
