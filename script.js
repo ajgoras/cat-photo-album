@@ -29,4 +29,4 @@ document.querySelectorAll(".photo").forEach((el) => {
 setTimeout(() => {
   document.querySelector(".intro-right").classList.add("open");
   document.querySelector(".intro-left").classList.add("open");
-}, 1500);
+}, 2000);

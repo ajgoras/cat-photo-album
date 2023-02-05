@@ -89,8 +89,8 @@ h3 {
 
 .photo {
   z-index: 2;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 8px;
+  margin-right: 8px;
   margin-top: 10px;
   background-size: 8em 8em !important;
   height: 8em;
@@ -193,4 +193,186 @@ h3 {
 
 #photo10.photohover:hover {
   margin-right: 50px;
+}
+
+@media screen and (max-width: 1500px) {
+  .photo {
+    height: 8vw;
+    width: 8vw;
+    background-size: 8vw 8vw !important;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #album {
+    flex-wrap: wrap;
+  }
+
+  .photo {
+    height: 10vw;
+    width: 10vw;
+    background-size: 10vw 10vw !important;
+  }
+
+
+  .activePhoto#photo1 {
+    transform: scale(3.4) translate(10vw, 13vh) rotate(360deg);
+  }
+
+  .activePhoto#photo2 {
+    transform: scale(3.4) translate(8vw, 13vh);
+  }
+
+  .activePhoto#photo3 {
+    transform: scale(3.4) translate(5.5vw, 13vh);
+  }
+
+  .activePhoto#photo4 {
+    transform: scale(3.4) translate(1vw, 13vh);
+  }
+
+  .activePhoto#photo5 {
+    transition: all 1.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transform: scale(3.4) rotateY(360deg) translate(-2.2vw, 13vh);
+  }
+
+  .activePhoto#photo6 {
+    transition: all 1.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transform: scale(3.4) rotateY(360deg) translate(-5vw, 13vh);
+  }
+
+  .activePhoto#photo7 {
+    transform: scale(3.4) translate(-8.3vw, 13vh);
+  }
+
+  .activePhoto#photo8 {
+    transform: scale(3.4) translate(-12vw, 13vh);
+  }
+
+  .activePhoto#photo9 {
+    transform: scale(3.4) translate(2.2vw, 10vh);
+  }
+
+  .activePhoto#photo10 {
+    transform: scale(3.4) translate(-2.2vw, 10vh) rotate(-360deg);
+  }
+
+}
+
+
+@media screen and (max-width: 960px) {
+  #album {
+    flex-wrap: wrap;
+  }
+
+  .photo {
+    height: 12vw;
+    width: 12vw;
+    background-size: 12vw 12vw !important;
+  }
+
+
+  .activePhoto#photo1 {
+    transform: scale(3.4) translate(10vw, 13vh) rotate(360deg);
+  }
+
+  .activePhoto#photo2 {
+    transform: scale(3.4) translate(6vw, 13vh);
+  }
+
+  .activePhoto#photo3 {
+    transform: scale(3.4) translate(2.6vw, 13vh);
+  }
+
+  .activePhoto#photo4 {
+    transform: scale(3.4) translate(-1.8vw, 13vh);
+  }
+
+  .activePhoto#photo5 {
+    transition: all 1.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transform: scale(3.4) rotateY(360deg) translate(-6vw, 13vh);
+  }
+
+  .activePhoto#photo6 {
+    transition: all 1.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transform: scale(3.4) rotateY(360deg) translate(-9.5vw, 13vh);
+  }
+
+  .activePhoto#photo7 {
+    transform: scale(3.4) translate(6vw, 9vh);
+  }
+
+  .activePhoto#photo8 {
+    transform: scale(3.4) translate(2.5vw, 9vh);
+  }
+
+  .activePhoto#photo9 {
+    transform: scale(3.4) translate(-2vw, 9vh);
+  }
+
+  .activePhoto#photo10 {
+    transform: scale(3.4) translate(-6vw, 9vh) rotate(-360deg);
+  }
+
+}
+
+
+@media screen and (max-width: 760px) {
+
+  h2{
+    font-size: 70px;
+  }
+  #album {
+    flex-wrap: wrap;
+  }
+
+  .photo {
+    height: 15.5vw;
+    width: 15.5vw;
+    background-size: 15.5vw 15.5vw !important;
+  }
+
+
+  .activePhoto#photo1 {
+    transform: scale(3.4) translate(11vw, 14vh) rotate(360deg);
+  }
+
+  .activePhoto#photo2 {
+    transform: scale(3.4) translate(5.5vw, 14vh);
+  }
+
+  .activePhoto#photo3 {
+    transform: scale(3.4) translate(.5vw, 14vh);
+  }
+
+  .activePhoto#photo4 {
+    transform: scale(3.4) translate(-5vw, 14vh);
+  }
+
+  .activePhoto#photo5 {
+    transition: all 1.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transform: scale(3.4) rotateY(360deg) translate(-10.2vw, 14vh);
+  }
+
+  .activePhoto#photo6 {
+    transition: all 1.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transform: scale(3.4) rotateY(360deg) translate(11vw, 10vh);
+  }
+
+  .activePhoto#photo7 {
+    transform: scale(3.4) translate(5.5vw, 10vh);
+  }
+
+  .activePhoto#photo8 {
+    transform: scale(3.4) translate(.5vw, 10vh);
+  }
+
+  .activePhoto#photo9 {
+    transform: scale(3.4) translate(-5vw, 10vh);
+  }
+
+  .activePhoto#photo10 {
+    transform: scale(3.4) translate(-10.2vw, 10vh) rotate(-360deg);
+  }
+
 }
