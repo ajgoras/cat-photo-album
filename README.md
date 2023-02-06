@@ -6,9 +6,9 @@ _Simple cat photo album application created in HTML, CSS and JavaScript._
 
 ### Features
 
-Click on the photo to zoom it
-Some of the photos have different effects after clicking on them
-When you open the page you will be greeted by an interesting intro effect
+Click on the photo to zoom it\
+Some of the photos have different effects after clicking on them\
+When you open the page you will be greeted by an interesting intro effect\
 Site looks good on computers as well as smartphones
 
 ### Live Link:
