@@ -195,6 +195,10 @@ h3 {
   margin-right: 50px;
 }
 
+.displayNone{
+  display: none;
+}
+
 @media screen and (max-width: 1500px) {
   .photo {
     height: 8vw;

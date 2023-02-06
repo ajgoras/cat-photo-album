@@ -30,3 +30,7 @@ setTimeout(() => {
   document.querySelector(".intro-right").classList.add("open");
   document.querySelector(".intro-left").classList.add("open");
 }, 2000);
+
+setTimeout(() => {
+  document.querySelector(".intro-right").classList.add("displayNone");
+}, 2750);
