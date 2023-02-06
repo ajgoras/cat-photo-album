@@ -127,23 +127,23 @@ h3 {
 
 .activePhoto#photo6 {
   transition: all 1.3s cubic-bezier(0.165, 0.84, 0.44, 1);
-  transform: scale(3.4) rotateY(360deg) translate(-20%, 13vh);
+  transform: scale(3.4) rotateY(360deg) translate(-10%, 13vh);
 }
 
 .activePhoto#photo7 {
-  transform: scale(3.4) translate(-55%, 13vh);
+  transform: scale(3.4) translate(-45%, 13vh);
 }
 
 .activePhoto#photo8 {
-  transform: scale(3.4) translate(-90%, 13vh);
+  transform: scale(3.4) translate(-75%, 13vh);
 }
 
 .activePhoto#photo9 {
-  transform: scale(3.4) translate(-125%, 13vh);
+  transform: scale(3.4) translate(-109%, 13vh);
 }
 
 .activePhoto#photo10 {
-  transform: scale(3.4) translate(-160%, 13vh) rotate(-360deg);
+  transform: scale(3.4) translate(-140%, 13vh) rotate(-360deg);
 }
 
 
