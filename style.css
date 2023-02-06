@@ -376,3 +376,63 @@ h3 {
   }
 
 }
+
+@media screen and (max-width: 520px) {
+
+  h2{
+    font-size: 52px;
+  }
+  #album {
+    flex-wrap: wrap;
+  }
+
+  .photo {
+    height: 19vw;
+    width: 19vw;
+    background-size: 19vw 19vw !important;
+  }
+
+
+  .activePhoto#photo1 {
+    transform: scale(3.4) translate(10vw, 14.5vh) rotate(360deg);
+  }
+
+  .activePhoto#photo2 {
+    transform: scale(3.4) translate(3.3vw, 14.5vh);
+  }
+
+  .activePhoto#photo3 {
+    transform: scale(3.4) translate(-3vw, 14.5vh);
+  }
+
+  .activePhoto#photo4 {
+    transform: scale(3.4) translate(-9.5vw, 14.5vh);
+  }
+
+  .activePhoto#photo5 {
+    transition: all 1.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transform: scale(3.4) rotateY(360deg) translate(10vw, 11.2vh);
+  }
+
+  .activePhoto#photo6 {
+    transition: all 1.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transform: scale(3.4) rotateY(360deg) translate(3.3vw, 11.2vh);
+  }
+
+  .activePhoto#photo7 {
+    transform: scale(3.4) translate(-3vw, 11.2vh);
+  }
+
+  .activePhoto#photo8 {
+    transform: scale(3.4) translate(-9.5vw, 11.2vh);
+  }
+
+  .activePhoto#photo9 {
+    transform: scale(3.4) translate(3.3vw, 7.9vh);
+  }
+
+  .activePhoto#photo10 {
+    transform: scale(3.4) translate(-3vw, 7.9vh) rotate(-360deg);
+  }
+
+}
